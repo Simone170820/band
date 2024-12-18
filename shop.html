@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Musicale - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Band Musicale</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Carrello</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="shop">
+        <div class="container">
+            <h2>Il nostro Shop</h2>
+            <p>Acquista il merchandise ufficiale della nostra band!</p>
+
+<div class="product" data-id="1" data-name="Maglietta Band Musicale" data-price="20.00">
+    <img src="Maglietta biancha.jpg" alt="Maglietta Band Musicale">
+    <h3>Maglietta Band Musicale</h3>
+    <p>Maglietta esclusiva con il logo ufficiale della band.</p>
+    <p class="price">€20,00</p>
+    
+    <!-- Menu a tendina per la selezione della taglia -->
+    <label for="size-select">Seleziona la taglia:</label>
+    <select id="size-select" class="size-select">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+    </select>
+    
+    <button class="add-to-cart">Aggiungi al carrello</button>
+</div>
+                </div>
+            
+
+
+                <!-- Prodotto 2 -->
+                <div class="product" data-id="2" data-name="CD Album 'Live in Concert'" data-price="15.00">
+                    <img src="CD.jpg" alt="CD Album 'Live in Concert'">
+                    <h3>CD Album "Live in Concert"</h3>
+                    <p>Il nostro ultimo album registrato dal vivo.</p>
+                    <p class="price">€15,00</p>
+                    <button class="add-to-cart">Aggiungi al carrello</button>
+                </div>
+
+                <!-- Prodotto 3 -->
+                <div class="product" data-id="3" data-name="Poster della Band" data-price="10.00">
+                    <img src="images/poster.jpg" alt="Poster della Band">
+                    <h3>Poster della Band</h3>
+                    <p>Un poster in edizione limitata con la nostra foto ufficiale.</p>
+                    <p class="price">€10,00</p>
+                    <button class="add-to-cart">Aggiungi al carrello</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Band Musicale. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
